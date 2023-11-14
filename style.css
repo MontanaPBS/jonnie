@@ -791,6 +791,17 @@ nav {
         
     }
 
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        align-content: flex-end;
+        background-color: black;
+        padding: 2rem 0 2rem 0;
+      
+    }
+
+
 }
 
 
