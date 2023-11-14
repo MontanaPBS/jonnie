@@ -557,11 +557,11 @@ nav {
     .hero-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr  1fr;
         grid-template-areas: 
         "a b"
         "c d"
-        "e f"
+        
         "g h";
         justify-content: center;
         align-content: center;
@@ -791,15 +791,7 @@ nav {
         
     }
 
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        align-content: flex-end;
-        background-color: black;
-        padding: 2rem 0 2rem 0;
-      
-    }
+  
 
 
 }
