@@ -110,7 +110,7 @@ p {
 }
 
 .logo-image {
-    max-width: 10rem;
+    max-width: 15rem;
     
 }
 
@@ -534,8 +534,31 @@ nav {
 
 }
 
+.footer-links {
+    display: grid;
+   grid-template-columns: 1fr 4fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-areas:
+   "a b c"
+   "d e f"
+   "g h i";
+    
+    width: 100%;
+    
+}
 
+.logo-image.footer {
+    grid-area: b;
+    align-self: center;
+    justify-self: center;
+    max-width: 15rem;
+}
 
+.home-footer-link {
+    grid-area: e;
+    align-self: center;
+    justify-self: center;
+}
 
 
 
