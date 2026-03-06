@@ -208,7 +208,7 @@ p {
 
 .about-content {
     text-align: left;
-    text-indent: 10px;
+    text-indent: 30px;
 }
 
 
@@ -224,6 +224,10 @@ h1.header.watch {
 
 h2.subheader.preview {
     color: #1e4078;
+}
+
+h3 {
+    margin-top: 0;
 }
 
 .about-grid {
@@ -349,8 +353,8 @@ h2.subheader.preview {
 }
 
 
-.subheader.film {
-    padding-bottom: 1rem;
+.role.film {
+    font-style: italic;
 }
 
 .film-maker-container {
